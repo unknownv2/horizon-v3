@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Horizon", "Horizon.csproj", "{D6F6C3EC-A745-4295-BC2A-8B067591A177}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{6CCB549B-617C-4F7D-AA36-5924F2464412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XContent", "..\XContent\XContent.csproj", "{BDF1B0E3-C353-4513-8117-40D75D335789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XDBF", "..\XDBF\XDBF.csproj", "{23D51D3F-B808-482F-A98B-11560DCD77B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STFS", "..\STFS\STFS.csproj", "{6D60C078-2B56-48C5-AE8C-EC558B436A0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODFX", "..\ODFX\ODFX.csproj", "{6FA983D2-E79C-497E-90DD-C16946A5E0A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xbox360", "..\Xbox360\Xbox360.csproj", "{A4DD878C-FDCB-4E0E-8832-4F78AA0930BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SVOD", "..\SVOD\SVOD.csproj", "{09144909-D7D6-45B4-8974-F133218CDA34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ODD", "..\ODD\ODD.csproj", "{49C7DD8D-8D7A-41B0-BE78-48CC2B803440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XProfile", "..\XProfile\XProfile.csproj", "{E92DA57D-D23E-46DB-AEED-AF38A8EA0E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj", "{BEFAA3CD-6F13-45FF-9FF3-33C07752902A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Internal|x86 = Internal|x86
+		Production|x86 = Production|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6F6C3EC-A745-4295-BC2A-8B067591A177}.Internal|x86.ActiveCfg = Internal|x86
+		{D6F6C3EC-A745-4295-BC2A-8B067591A177}.Internal|x86.Build.0 = Internal|x86
+		{D6F6C3EC-A745-4295-BC2A-8B067591A177}.Production|x86.ActiveCfg = Production|x86
+		{D6F6C3EC-A745-4295-BC2A-8B067591A177}.Production|x86.Build.0 = Production|x86
+		{6CCB549B-617C-4F7D-AA36-5924F2464412}.Internal|x86.ActiveCfg = Internal|x86
+		{6CCB549B-617C-4F7D-AA36-5924F2464412}.Internal|x86.Build.0 = Internal|x86
+		{6CCB549B-617C-4F7D-AA36-5924F2464412}.Production|x86.ActiveCfg = Production|x86
+		{6CCB549B-617C-4F7D-AA36-5924F2464412}.Production|x86.Build.0 = Production|x86
+		{BDF1B0E3-C353-4513-8117-40D75D335789}.Internal|x86.ActiveCfg = Internal|x86
+		{BDF1B0E3-C353-4513-8117-40D75D335789}.Internal|x86.Build.0 = Internal|x86
+		{BDF1B0E3-C353-4513-8117-40D75D335789}.Production|x86.ActiveCfg = Production|x86
+		{BDF1B0E3-C353-4513-8117-40D75D335789}.Production|x86.Build.0 = Production|x86
+		{23D51D3F-B808-482F-A98B-11560DCD77B8}.Internal|x86.ActiveCfg = Internal|x86
+		{23D51D3F-B808-482F-A98B-11560DCD77B8}.Internal|x86.Build.0 = Internal|x86
+		{23D51D3F-B808-482F-A98B-11560DCD77B8}.Production|x86.ActiveCfg = Production|x86
+		{23D51D3F-B808-482F-A98B-11560DCD77B8}.Production|x86.Build.0 = Production|x86
+		{6D60C078-2B56-48C5-AE8C-EC558B436A0A}.Internal|x86.ActiveCfg = Internal|x86
+		{6D60C078-2B56-48C5-AE8C-EC558B436A0A}.Internal|x86.Build.0 = Internal|x86
+		{6D60C078-2B56-48C5-AE8C-EC558B436A0A}.Production|x86.ActiveCfg = Production|x86
+		{6D60C078-2B56-48C5-AE8C-EC558B436A0A}.Production|x86.Build.0 = Production|x86
+		{6FA983D2-E79C-497E-90DD-C16946A5E0A6}.Internal|x86.ActiveCfg = Internal|x86
+		{6FA983D2-E79C-497E-90DD-C16946A5E0A6}.Internal|x86.Build.0 = Internal|x86
+		{6FA983D2-E79C-497E-90DD-C16946A5E0A6}.Production|x86.ActiveCfg = Production|x86
+		{6FA983D2-E79C-497E-90DD-C16946A5E0A6}.Production|x86.Build.0 = Production|x86
+		{A4DD878C-FDCB-4E0E-8832-4F78AA0930BF}.Internal|x86.ActiveCfg = Internal|x86
+		{A4DD878C-FDCB-4E0E-8832-4F78AA0930BF}.Internal|x86.Build.0 = Internal|x86
+		{A4DD878C-FDCB-4E0E-8832-4F78AA0930BF}.Production|x86.ActiveCfg = Production|x86
+		{A4DD878C-FDCB-4E0E-8832-4F78AA0930BF}.Production|x86.Build.0 = Production|x86
+		{09144909-D7D6-45B4-8974-F133218CDA34}.Internal|x86.ActiveCfg = Internal|x86
+		{09144909-D7D6-45B4-8974-F133218CDA34}.Internal|x86.Build.0 = Internal|x86
+		{09144909-D7D6-45B4-8974-F133218CDA34}.Production|x86.ActiveCfg = Production|x86
+		{09144909-D7D6-45B4-8974-F133218CDA34}.Production|x86.Build.0 = Production|x86
+		{49C7DD8D-8D7A-41B0-BE78-48CC2B803440}.Internal|x86.ActiveCfg = Internal|x86
+		{49C7DD8D-8D7A-41B0-BE78-48CC2B803440}.Internal|x86.Build.0 = Internal|x86
+		{49C7DD8D-8D7A-41B0-BE78-48CC2B803440}.Production|x86.ActiveCfg = Production|x86
+		{49C7DD8D-8D7A-41B0-BE78-48CC2B803440}.Production|x86.Build.0 = Production|x86
+		{E92DA57D-D23E-46DB-AEED-AF38A8EA0E8B}.Internal|x86.ActiveCfg = Internal|x86
+		{E92DA57D-D23E-46DB-AEED-AF38A8EA0E8B}.Internal|x86.Build.0 = Internal|x86
+		{E92DA57D-D23E-46DB-AEED-AF38A8EA0E8B}.Production|x86.ActiveCfg = Production|x86
+		{E92DA57D-D23E-46DB-AEED-AF38A8EA0E8B}.Production|x86.Build.0 = Production|x86
+		{BEFAA3CD-6F13-45FF-9FF3-33C07752902A}.Internal|x86.ActiveCfg = Internal|x86
+		{BEFAA3CD-6F13-45FF-9FF3-33C07752902A}.Internal|x86.Build.0 = Internal|x86
+		{BEFAA3CD-6F13-45FF-9FF3-33C07752902A}.Production|x86.ActiveCfg = Production|x86
+		{BEFAA3CD-6F13-45FF-9FF3-33C07752902A}.Production|x86.Build.0 = Production|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

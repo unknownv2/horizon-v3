@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Console_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Console_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dot_Gray" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dot_Gray.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dot_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dot_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Editor_AvatarColorEditor_Rectangle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Editor_AvatarColorEditor_Rectangle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Editor_SuperMeatBoy_MeatBoy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Editor_SuperMeatBoy_MeatBoy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FatxHDD_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FatxHDD_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FatxMU_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FatxMU_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="FatxUSB_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\FatxUSB_24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Closed_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder_Closed_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Folder_Opened_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Folder_Opened_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Info_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Info_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lock_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lock_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo_Horizon_100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo_Horizon_100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Package_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Package_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Refresh_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Refresh_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_AlanWake" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_AlanWake.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_AssassinsCreedII" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_AssassinsCreedII.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Bastion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Bastion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Bayonetta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Bayonetta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_BionicCommando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_BionicCommando.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Bioshock2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Bioshock2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Blur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Blur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Borderlands" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Borderlands.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Brink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Brink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_BrutalLegend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_BrutalLegend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_CastleCrashers" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_CastleCrashers.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Crackdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Crackdown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Crackdown2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Crackdown2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Crysis2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Crysis2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_DeadIsland" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_DeadIsland.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_DeadRising2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_DeadRising2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_DeadSpace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_DeadSpace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_DeadSpace2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_DeadSpace2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_DevilMayCry3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_DevilMayCry3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_DevilMayCry4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_DevilMayCry4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_DiRT2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_DiRT2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_DiRT3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_DiRT3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_DiRTShowdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_DiRTShowdown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_DragonsDogma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_DragonsDogma.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_EnslavedOdyssey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_EnslavedOdyssey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Fable2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Fable2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_FEAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_FEAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_FEAR2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_FEAR2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_FIFA11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_FIFA11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_FIFA12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_FIFA12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_ForzaMotorsport3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_ForzaMotorsport3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_ForzaMotorsport3_Screenshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_ForzaMotorsport3_Screenshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_ForzaMotorsport4_Livery" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_ForzaMotorsport4_Livery.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_ForzaMotorsport4_Screenshot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_ForzaMotorsport4_Screenshot.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_ForzaMotorsport4_Thumb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_ForzaMotorsport4_Thumb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_GearsOfWar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_GearsOfWar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_GearsOfWar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_GearsOfWar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_GearsOfWar3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_GearsOfWar3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_GearsOfWar3_Stats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_GearsOfWar3_Stats.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_Controller" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_Controller.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_Device" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_Device.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_Dots" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_Dots.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_DownArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_DownArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_Folder_Picture" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_Folder_Picture.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_Gears" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_Gears.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_Info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_Info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_PageGear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_PageGear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_People" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_People.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_Person" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_Person.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_Person_Bubble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_Person_Bubble.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_Person_Trophey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_Person_Trophey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_GrandTheftAutoIV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_GrandTheftAutoIV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Halo3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Halo3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Halo3ODST" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Halo3ODST.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_HaloReach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_HaloReach.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_JustCause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_JustCause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Left4Dead2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Left4Dead2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_LIMBO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_LIMBO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_LostOdyssey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_LostOdyssey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_MarbleBlastUltra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_MarbleBlastUltra.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_MaxPayne3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_MaxPayne3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Metro2033" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Metro2033.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_ModernWarfare3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_ModernWarfare3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_NarutoStorm2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_NarutoStorm2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_NaughtyBear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_NaughtyBear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_NeedForSpeedHotPersuit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_NeedForSpeedHotPersuit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_NPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_NPlus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Oblivion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Oblivion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_PlantsVsZombies" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_PlantsVsZombies.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Prototype" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Prototype.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_QuakeArenaArcade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_QuakeArenaArcade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_RedDeadRedemption" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_RedDeadRedemption.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_RedFaction" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_RedFaction.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_ResidentEvil5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_ResidentEvil5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_SaintsRow3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_SaintsRow3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_SonicTheHedgehog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_SonicTheHedgehog.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_SSXTricky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_SSXTricky.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_SuperMeatBoy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_SuperMeatBoy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Swarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Swarm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_TestDriveUnlimited" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_TestDriveUnlimited.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_TheForceUnleashedII" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_TheForceUnleashedII.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_TheSaboteur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_TheSaboteur.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_WET" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_WET.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_YuGiOh5DS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_YuGiOh5DS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Tile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Tile.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Trophy_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Trophy_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_QuestionMark" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_QuestionMark.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_Trophey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_Trophey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Gear_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Gear_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pencil_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pencil_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="QuestionMark_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QuestionMark_64.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Disk_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Disk_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MagnifyingGlass_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MagnifyingGlass_16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_FolderTheme" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_FolderTheme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_Generic_FolderGear" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_Generic_FolderGear.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Thumb_FIFA13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Thumb_FIFA13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
