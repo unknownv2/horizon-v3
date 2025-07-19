@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+      </PropertyGroup>
+    <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="CBFS4Net">
+      <HintPath>C:\Program Files (x86)\EldoS\Callback File System\dotNET\NET_45\32bit\CBFS4Net.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{6ccb549b-617c-4f7d-aa36-5924f2464412}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Xbox360\Xbox360.csproj">
+      <Project>{a4dd878c-fdcb-4e0e-8832-4f78aa0930bf}</Project>
+      <Name>Xbox360</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="callback.CBFSConnect" Version="24.0.9258" />
+  </ItemGroup>
+</Project>

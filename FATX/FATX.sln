@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FATX", "FATX.csproj", "{40535967-14B2-469A-90C1-FEB9F2380AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\Common\Common.csproj", "{6CCB549B-617C-4F7D-AA36-5924F2464412}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Internal|x86 = Internal|x86
+		Production|x86 = Production|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40535967-14B2-469A-90C1-FEB9F2380AED}.Internal|x86.ActiveCfg = Internal|x86
+		{40535967-14B2-469A-90C1-FEB9F2380AED}.Internal|x86.Build.0 = Internal|x86
+		{40535967-14B2-469A-90C1-FEB9F2380AED}.Production|x86.ActiveCfg = Production|x86
+		{40535967-14B2-469A-90C1-FEB9F2380AED}.Production|x86.Build.0 = Production|x86
+		{6CCB549B-617C-4F7D-AA36-5924F2464412}.Internal|x86.ActiveCfg = Internal|x86
+		{6CCB549B-617C-4F7D-AA36-5924F2464412}.Internal|x86.Build.0 = Internal|x86
+		{6CCB549B-617C-4F7D-AA36-5924F2464412}.Production|x86.ActiveCfg = Production|x86
+		{6CCB549B-617C-4F7D-AA36-5924F2464412}.Production|x86.Build.0 = Production|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
